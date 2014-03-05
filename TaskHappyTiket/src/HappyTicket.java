@@ -2,6 +2,7 @@
 public class HappyTicket {
 
     public static void sixFor(){
+
         int firstDial []  = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         int secondDial [] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         int thirdDial []  = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -30,7 +31,9 @@ public class HappyTicket {
 
 
     public static void main(String[] args){
+
         sixFor();
+
     }
 }
 
