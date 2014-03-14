@@ -3,6 +3,7 @@ package com.lesson;
 public class Field {
 
     private static final int FIELD_SIZE = 3;
+    private static final char DEFAULT_CELL_VALUE = ' ';
     private char [] [] field = new char[FIELD_SIZE][FIELD_SIZE];
 
     public void eraseField(){
@@ -22,7 +23,7 @@ public class Field {
 
     public void eraseLine(int lineNumber) {
         for (int i = 0; i < FIELD_SIZE; i++) {
-            field[i][lineNumber] = ' ';
+            field[i][lineNumber] = DEFAULT_CELL_VALUE;
         }
     }
 

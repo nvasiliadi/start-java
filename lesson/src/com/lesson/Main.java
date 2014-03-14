@@ -5,19 +5,26 @@ public class Main {
 
     public static void main(String[] args){
         Field field = new Field();
+
         field.eraseField();
         field.showField();
 
-        TaskMethod1.assertForResult();
-        double otvet = TaskMethod1.result(52,34);
-        System.out.println(otvet);
 
-        double otvetTernarnij = TaskMethod1.resultTernarnij(52,34);
-        System.out.println(otvetTernarnij);
+        int happy = TaskMethod2.happyTicketsCount();
+        System.out.println(happy);
 
 
-        double[] element = Arr.arrPlus10Percents(10, new double[] {0,1,2,3,4,5,6,7,8,9});
-        System.out.print(element[4]);
+
+
+
+
+
+        //int a = TaskMethod2.action2(1, 2);
+        //System.out.print("a = " + a);
+
+
+
+
 
 
 
