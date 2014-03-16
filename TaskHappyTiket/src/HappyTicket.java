@@ -33,6 +33,16 @@ public class HappyTicket {
     public static void main(String[] args){
 
         sixFor();
+        int x = HappyTicket2.happyTicketsCount(1230, 1234, 4);
+        System.out.println(x);
+
+
+
+
+        HappyTicket2.testForIsHappy();
+        HappyTicket2.testForIsHappy2();
+        HappyTicket2.testForConvertToArray();
+        //HappyTicket2.testForHappyTicketsCount();
 
     }
 }
