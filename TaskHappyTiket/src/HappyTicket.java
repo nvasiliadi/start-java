@@ -36,6 +36,8 @@ public class HappyTicket {
         int x = HappyTicket2.happyTicketsCount(1230, 1234, 4);
         System.out.println(x);
 
+        TaskSum.testForSumArr();
+
 
 
 
